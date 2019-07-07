@@ -1,6 +1,6 @@
 <?php
 
-namespace Modules\Seo\Providers;
+namespace GeekCms\Seo\Providers;
 
 use GeekCms\PackagesManager\Support\ServiceProvider as MainServiceProvider;
 

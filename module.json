@@ -6,7 +6,7 @@
     "active": 0,
     "order": 1,
     "providers": [
-        "Modules\\Seo\\Providers\\InitServiceProvider"
+        "GeekCms\\Seo\\Providers\\InitServiceProvider"
     ],
     "aliases": {},
     "files": [
