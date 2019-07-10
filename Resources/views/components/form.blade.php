@@ -110,14 +110,14 @@
             var action = $('#action'),
                 help = $('#actionTypeHelp');
 
-            function setData(data){
+            function setData(data) {
                 action.val(data);
                 help.html(data);
             }
 
 
             // link
-            if (name == 'link') {
+            if (name === 'link') {
                 var eLink = $('#iActionLink');
 
                 setData('link::' + $(eLink).val());
@@ -128,7 +128,7 @@
             }
 
             // anhor
-            if (name == 'anhor') {
+            if (name === 'anhor') {
                 var eAnhor = $('#iActionAnhor');
 
                 setData('anhor::' + $(eAnhor).val());
@@ -138,7 +138,7 @@
                 });
             }
 
-            if (name == 'page') {
+            if (name === 'page') {
                 var ePage = $('#iActionPage');
 
                 setData($(ePage).val());

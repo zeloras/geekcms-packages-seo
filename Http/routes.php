@@ -1,6 +1,6 @@
 <?php
 
-Route::group(['middleware' => ['web', 'permission:' . \Gcms::MAIN_ADMIN_PERMISSION], 'prefix' => getAdminPrefix('seo')], function () {
+Route::group(['middleware' => ['web', 'permission:' . Gcms::MAIN_ADMIN_PERMISSION], 'prefix' => getAdminPrefix('seo')], function () {
     Route::group(['middleware' => ['permission:modules_seo_admin_list']], function () {
         Route::get(DIRECTORY_SEPARATOR, function () {
         });

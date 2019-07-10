@@ -27,17 +27,17 @@
     </div>
 
 
-   <div class="row">
-       <div class="col">
-           <div class="form-group text-center">
-               <button id="menuSave" class="btn btn-primary">Save</button>
+    <div class="row">
+        <div class="col">
+            <div class="form-group text-center">
+                <button id="menuSave" class="btn btn-primary">Save</button>
 
-               <a href="{{ route('admin.menu.delete', ['menu' => $menu->id]) }}"
-                  class="btn  btn-danger"
-                  data-delete="Данные навигации будут удалены! Продолжить?">
-                   Delete navigation
-               </a>
-           </div>
-       </div>
-   </div>
+                <a href="{{ route('admin.menu.delete', ['menu' => $menu->id]) }}"
+                   class="btn  btn-danger"
+                   data-delete="Данные навигации будут удалены! Продолжить?">
+                    Delete navigation
+                </a>
+            </div>
+        </div>
+    </div>
 </form>

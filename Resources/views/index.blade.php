@@ -1,12 +1,12 @@
 @extends('admin.layouts.main')
 
-@section('title',  \Translate::get('menu::admin.page_title') )
+@section('title',  Translate::get('menu::admin.page_title') )
 
 @section('content')
 
     <script>
         var menuIndexUrl = '{{ route('admin.menu') }}';
-        var menuId = {{ $menu->id ?? 0 }};
+        var menuId = '{{ $menu->id ?? 0 }}';
     </script>
 
     <div class="row">
@@ -78,11 +78,11 @@
 @push('css')
     <link href="{{ asset('themes/admin/vendor/menu/menu.css') }}" rel="stylesheet" type="text/css">
     <style>
-        .dd-actions{
+        .dd-actions {
             position: absolute;
             height: 100%;
-            right: 0px;
-            top:0px;
+            right: 0;
+            top: 0;
             z-index: 9;
         }
     </style>
