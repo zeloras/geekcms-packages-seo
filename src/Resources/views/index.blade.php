@@ -1,6 +1,6 @@
 @extends('admin.layouts.main')
 
-@section('title',  Translate::get('menu::admin.page_title') )
+@section('title',  Translate::get('module_menu::admin.page_title') )
 
 @section('content')
 
