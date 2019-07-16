@@ -1,0 +1,11 @@
+/node_modules
+/vendor
+/.idea
+/.vscode
+/.vagrant
+/build
+composer.lock
+composer.phar
+package-lock.json
+.php_cs.cache
+.phpunit.result.cache
